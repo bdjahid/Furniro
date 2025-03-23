@@ -43,6 +43,7 @@ body {
   align-items: center;
 }
 /* header section starts */
+
 header {
   width: 120rem;
   height: 100px;
@@ -228,4 +229,15 @@ i {
 }
 .card-width :hover {
   background-color: #e9edf7;
+}
+.button {
+  width: 245px;
+  height: 48px;
+  border: 1px solid;
+  color: #b88e2f;
+  background-color: #ffffff;
+}
+.center {
+  text-align: center;
+  margin: 40px;
 }
