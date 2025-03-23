@@ -25,12 +25,7 @@ body {
   margin: auto;
   /* box-shadow: 0.1rem 0.1rem 0.1rem #c4c4c4, -0.1rem 0rem 0.1rem #c4c4c4; */
 }
-.text-justify {
-  text-align: justify;
-}
-.text-white {
-  color: #3a3a3a;
-}
+
 .btn {
   background-color: #b88e2f;
   border: none;
@@ -63,9 +58,10 @@ header > div > h1 {
   letter-spacing: 1;
   line-height: 100%;
 }
+
 header img {
-  width: 50px;
-  height: 32px;
+  width: 48px;
+  height: 30px;
 }
 nav > ul > li > a,
 i {
@@ -157,4 +153,79 @@ i {
   text-align: center;
   margin-top: 15px;
   margin-bottom: 50px;
+}
+/* products section starts */
+.products {
+  width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 50px 0;
+}
+
+.products img {
+  width: 285px;
+  height: 301px;
+}
+
+.products h5 {
+  font-weight: 500;
+  font-size: 24px;
+  letter-spacing: 120%;
+  letter-spacing: 0%;
+  color: #3a3a3a;
+}
+.products h6 {
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 120%;
+  letter-spacing: 0%;
+  color: #3a3a3a;
+}
+.products p {
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 150%;
+  letter-spacing: 0%;
+  color: #898989;
+}
+.products-price {
+  display: flex;
+  gap: 10px;
+}
+.products-dec {
+  padding: 20px;
+  line-height: 30px;
+}
+.positon-relative {
+  position: relative;
+}
+.products button {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: rgb(228, 105, 61);
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border-radius: 50%;
+  border: none;
+}
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.card-width {
+  width: 285px;
+  height: 446px;
+  background-color: #f4f5f7;
+}
+.card-width :hover {
+  background-color: #e9edf7;
 }
