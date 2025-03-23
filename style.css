@@ -241,3 +241,77 @@ i {
   text-align: center;
   margin: 40px;
 }
+
+/* rooms section */
+.rooms-container {
+  background-color: #e7ddd2;
+  height: 650px;
+}
+.room-dec h1 {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 120%;
+  letter-spacing: 0px;
+  color: #3a3a3a;
+  width: 422px;
+}
+.room-dec p {
+  color: #616161;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0%;
+  width: 422px;
+  margin: 10px 0;
+}
+.rooms-img img {
+  width: 404px;
+  height: 502px;
+  margin-top: 80px;
+}
+.rooms-img1 img {
+  width: 372px;
+  height: 420px;
+}
+.rooms-flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.rooms-img {
+  position: relative;
+}
+.position-rooms {
+  width: 217px;
+  background-color: #ffffffb8;
+  padding: 30px;
+  position: absolute;
+  top: 450px;
+  right: 170px;
+}
+.position-rooms h6 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+.position-rooms p {
+  font-weight: 600;
+  font-size: 28px;
+  line-height: 120%;
+  letter-spacing: 0;
+}
+.button-icon {
+  width: 50px;
+  height: 48px;
+  background-color: #b88e2f;
+  text-align: center;
+  border: none;
+  position: absolute;
+  top: 520px;
+  right: 120px;
+}
+.icon {
+  color: #ffffff;
+}
