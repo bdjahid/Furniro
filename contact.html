@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- font awesome link -->
     <link
       rel="stylesheet"
@@ -9,12 +11,194 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <!-- fab icon -->
+    <link rel="shortcut icon" href="./image/fab.png" type="image/x-icon" />
+    <!-- css link -->
+    <link rel="stylesheet" href="style.css" />
+    <title>Furniro</title>
   </head>
   <body>
-    <i class="fa-solid fa-user"></i>Admin <i class="fa-solid fa-calendar"></i>14
-    Oct 2022 <i class="fa-regular fa-clipboard"></i>Handmade
+    <header>
+      <!-- navbar  -->
+      <div class="d-flex">
+        <img src="./image/fab.png" alt="" />
+        <h1>Furniro</h1>
+      </div>
+      <nav class="">
+        <ul class="d-flex">
+          <li><a target="_blank" href="#home">Home</a></li>
+          <li><a target="_blank" href="#shop">Shop</a></li>
+          <li><a target="_blank" href="#about">About</a></li>
+          <li><a target="_blank" href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="d-flex">
+        <p><i class="fa-solid fa-person-dress"></i></p>
+        <p><i class="fa-solid fa-magnifying-glass"></i></p>
+        <p><i class="fa-regular fa-heart"></i></p>
+        <p><i class="fa-solid fa-cart-plus"></i></p>
+      </div>
+    </header>
+    <!-- banner section starts -->
+    <section class="banner-checkout">
+      <div>
+        <img src="./image/fab.png" alt="fab-pic" />
+        <h2 class="checkout">Contact</h2>
+        <h3 class="checkout-page">Home > Contact</h3>
+      </div>
+    </section>
+    <main>
+      <section>
+        <h2 class="contact-title">Get In Touch With Us</h2>
+        <p class="contact-dec">
+          For More Information About Our Product & Services. Please Feel Free To
+          Drop Us
+          <br />
+          An Email. Our Staff Always Be There To Help You Out. Do Not Hesitate!
+        </p>
+        <br />
+        <br />
+        <br />
+        <div class="contact-flex">
+          <div>
+            <div>
+              <p>
+                <i class="fa-solid fa-location-dot contact-icon"></i>Address
+              </p>
+              <p class="address">
+                236 5th SE Avenue,
+                <br />
+                New York NY10000,
+                <br />
+                United States
+              </p>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div>
+              <p><i class="fa-solid fa-phone contact-icon"></i>Phone</p>
+              <p class="address">
+                Mobile: +(84) 546-6789
+                <br />
+                Hotline: +(84) 456-6789
+              </p>
+            </div>
+            <br />
+            <br />
+            <br />
+            <div>
+              <p><i class="fa-solid fa-clock contact-icon"></i>Working Time</p>
+              <p class="address">
+                Monday-Friday: 9:00 - 22:00
+                <br />
+                Saturday-Sunday: 9:00 - 21:00
+              </p>
+            </div>
+          </div>
+          <div>
+            <form>
+              <label for="email">Your Name</label>
+              <input class="input" type="text" id="" name="" required />
+              <br />
+              <br />
+              <label for="email">Email address</label>
+              <input
+                class="input"
+                type="email"
+                id="email"
+                name="email"
+                required
+              />
+              <br />
+              <br />
+              <label for="email">Subject</label>
+              <input class="input" type="text" id="" name="" required />
+              <br />
+              <br />
+              <label for="email">Massage</label>
+              <textarea
+                class="input"
+                name=""
+                id=""
+                rows="5"
+                cols="59"
+              ></textarea>
+            </form>
+            <button class="btn">Submit</button>
+          </div>
+        </div>
+      </section>
+    </main>
+    <!-- footer -->
+    <footer class="bg-color">
+      <div>
+        <div class="footer-sec">
+          <div class="box-footer">
+            <div class="header-content">
+              <h3>Funiro.</h3>
+              <p>
+                400 University Drive Suite 200 Coral
+                <br />
+                <br />
+                Gables,
+                <br />
+                <br />
+                FL 33134 USA
+              </p>
+            </div>
+          </div>
+          <div>
+            <h4 class="footer-title">Links</h4>
+            <p class="footer-dec">
+              <a target="_blank" href="#home">Home</a>
+              <br />
+              <br />
+              <a target="_blank" href="#shop">Shop</a>
+              <br />
+              <br />
+              <a target="_blank" href="#about">About</a>
+              <br />
+              <br />
+              <a target="_blank" href="#contact">Contact</a>
+            </p>
+          </div>
+          <div>
+            <h4 class="footer-title">Help</h4>
+            <p class="footer-dec">
+              Payment Options
+              <br />
+              <br />
+              Returns
+              <br />
+              <br />
+              Privacy Policies
+            </p>
+          </div>
+          <div>
+            <h4 class="footer-title">Newsletter</h4>
+            <div class="flex-space-around">
+              <input
+                type="email"
+                id="subscribe"
+                name="subscribe"
+                class="footer-input"
+                placeholder="Your Email Address"
+              />
+              <button class="btn-subscribe">Subscribe</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="color-bg">
+        <div class="">
+          <hr />
+          <p class="copyright-text">
+            Copyright &copy; by Jahidul Islam. All rights reserved.
+          </p>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

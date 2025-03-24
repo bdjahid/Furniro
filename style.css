@@ -546,6 +546,38 @@ i {
   height: 80px;
   border-radius: 10px;
 }
+/* contact section */
+.contact-flex {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 100px;
+}
+.contact-title {
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000000;
+  text-align: center;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.contact-dec {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: #000000;
+  text-align: center;
+}
+.address {
+  margin-left: 69px;
+}
+.contact-icon {
+  color: #b88e2f;
+  margin-right: 30px;
+}
 /* pagination */
 .pagination {
   display: flex;
