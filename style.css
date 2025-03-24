@@ -37,6 +37,30 @@ body {
   text-transform: uppercase;
   color: #ffffff;
 }
+.btn2 {
+  background-color: #b88e2f;
+  border: none;
+  box-shadow: 0.1rem 0.1rem 0.1rem #222;
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 8px 14px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #000000;
+  border-radius: 8px;
+}
+.btn3 {
+  background-color: #ecdac3;
+  border: none;
+  box-shadow: 0.1rem 0.1rem 0.1rem #222;
+  cursor: pointer;
+  font-size: 1.6rem;
+  padding: 8px 14px;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: #000000;
+  border-radius: 8px;
+}
 .d-flex {
   display: flex;
   justify-content: center;
@@ -416,27 +440,130 @@ i {
   display: flex;
   justify-content: center;
   gap: 100px;
+  margin-bottom: 50px;
 }
 .product {
   width: 400px;
-  line-height: 200%;
+  line-height: 150%;
   margin-top: 100px;
 }
+.bank-1 {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+  letter-spacing: 0;
+  line-height: 100%;
+}
+.form-flex-2 h3 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+
 .hr-line {
   width: 400px;
   border: 1px solid #d9d9d9;
   margin: 15px 0;
 }
-/* .size {
-  margin-left: 130px;
-  margin-bottom: 3px;
+/* blog section */
+.blog-container {
+  width: 1100px;
+  margin: 100px auto;
+  display: flex;
+  gap: 100px;
 }
-.div {
-  font-family: Arial, sans-serif;
+.blog-img img {
+  width: 817px;
+  height: 500px;
+}
+.icon-blog {
+  margin-right: 10px;
+}
+.blog-admin {
+  margin: 10px 0;
+}
+.blog-flex {
+  width: 400px;
+  display: flex;
+}
+.blog-img p {
+  width: 817px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: #9f9f9f;
+}
+.blog-img h3 {
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: #000000;
+}
+.blog-img button {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000000;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  border-bottom: 1px solid #000000;
+  margin-top: 20px;
+  margin-bottom: 60px;
+  padding: 15px 10px 15px 0px;
+}
+.blog-cata {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000000;
+}
+.input-blog {
+  position: relative;
+  padding: 5px;
+}
+.blog-btn {
+  position: absolute;
+  right: 130px;
+  padding: 5px;
+  border: none;
+  background-color: white;
+  margin-top: 1px;
+}
+.blog-posts {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 15px;
+}
+.img-blog {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+}
+/* pagination */
+.pagination {
   display: flex;
   justify-content: center;
-  gap: 50px;
-} */
+  align-items: center;
+  gap: 20px;
+  margin: 40px 0;
+}
+.pagination_btn {
+  border-width: 1px 1px 1px 0;
+  border-style: solid;
+}
+/* pagination */
+.pagination_btn:first-child {
+  border-width: 1px 1px 1px 1px;
+  border-style: solid;
+}
+
 /* footer starts here  */
 .header-content h3 {
   font-weight: 700;
