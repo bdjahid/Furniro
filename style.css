@@ -588,6 +588,7 @@ i {
   display: flex;
   width: 1100px;
   margin: 50px auto;
+  gap: 20px;
 }
 .cart {
   width: 393px;
@@ -643,7 +644,64 @@ i {
   border-width: 1px 1px 1px 1px;
   border-style: solid;
 }
+/* filter section */
+.filter {
+  width: 100%;
+  height: 100px;
+  background-color: #f9f1e7;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
 
+.filter-size {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+.filter-size p {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000000;
+}
+.filter-size img {
+  width: 25px;
+  height: 19px;
+}
+.button-filter {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000000;
+  border-top: none;
+  border-bottom: none;
+  border-right: none;
+  background-color: #f9f1e7;
+  padding: 10px 5px 10px 50px;
+}
+.button-filter2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000000;
+  border: none;
+  background-color: #ffffff;
+  padding: 10px 40px 10px 10px;
+}
+.button-filter3 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000000;
+  border: none;
+  background-color: #ffffff;
+  padding: 10px 10px 10px 10px;
+}
 /* footer starts here  */
 .header-content h3 {
   font-weight: 700;
