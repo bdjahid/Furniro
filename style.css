@@ -702,6 +702,92 @@ i {
   background-color: #ffffff;
   padding: 10px 10px 10px 10px;
 }
+/* sofa container */
+.sofa-container {
+  width: 100%;
+  height: 100px;
+  background-color: #f9f1e7;
+  display: flex;
+  align-items: center;
+}
+.sofa-container-margin {
+  background-color: #f9f1e7;
+  display: flex;
+  align-items: center;
+  margin-left: 80px;
+}
+/* sofa description */
+
+.sofa-img1 img {
+  cursor: pointer;
+  width: 76px;
+  height: 80px;
+  margin-bottom: 10px;
+  background-color: #f9f1e7;
+}
+.sofa-img1 {
+  display: flex;
+  flex-direction: column;
+}
+.sofa-img2 img {
+  width: 481px;
+  height: 500px;
+  background-color: #f9f1e7;
+}
+.Asgaard-container {
+  display: flex;
+  width: 1150px;
+  margin: 50px auto;
+  gap: 30px;
+}
+.flex-sofa {
+  display: flex;
+  gap: 20px;
+}
+.sofa-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: 50px;
+}
+.sofa-desc h4 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+}
+.sofa-desc p {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #9f9f9f;
+}
+.sofa-des {
+  width: 900px;
+  height: 96px;
+  margin: 0 auto;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #9f9f9f;
+  /* text-align: center; */
+}
+.sofa-img {
+  margin-top: 80px;
+  text-align: center;
+}
+.sofa-img img {
+  width: 605px;
+  height: 348px;
+  background-color: #f9f1e7;
+  margin-left: 10px;
+}
+#hr {
+  width: 100%;
+}
 /* footer starts here  */
 .header-content h3 {
   font-weight: 700;
