@@ -1015,15 +1015,6 @@ i {
   padding-bottom: 10px;
 }
 
-/* .footer {
-  width: 1100px;
-  margin: 0 auto;
-  padding: 1rem;
-  min-height: 5vh;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-} */
 hr {
   width: 1100px;
   margin: 0 auto;
@@ -1140,6 +1131,17 @@ hr {
   .cart-container {
     width: 100%;
   }
+  .furniro-flex {
+    width: 90%;
+    height: 100%;
+    background-color: #ffc700;
+    display: flex;
+    flex-direction: column;
+  }
+  .image-flex-one {
+    width: 100%;
+    height: 100%;
+  }
 }
 @media (max-width: 700px) {
   header {
@@ -1236,9 +1238,14 @@ hr {
   }
   .furniro-flex {
     width: 90%;
+    height: 100%;
     background-color: #ffc700;
     display: flex;
     flex-direction: column;
+  }
+  .image-flex-one {
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 600px) {
@@ -1338,6 +1345,17 @@ hr {
   .cart-container {
     width: 100%;
   }
+  .furniro-flex {
+    width: 90%;
+    height: 100%;
+    background-color: #ffc700;
+    display: flex;
+    flex-direction: column;
+  }
+  .image-flex-one {
+    width: 100%;
+    height: 100%;
+  }
 }
 @media (max-width: 400px) {
   header {
@@ -1423,6 +1441,17 @@ hr {
   }
   .cart-container {
     width: 100%;
+  }
+  .furniro-flex {
+    width: 90%;
+    height: 100%;
+    background-color: #ffc700;
+    display: flex;
+    flex-direction: column;
+  }
+  .image-flex-one {
+    width: 100%;
+    height: 100%;
   }
 }
 @media (max-width: 300px) {
