@@ -738,11 +738,107 @@ i {
   display: flex;
   width: 1150px;
   margin: 50px auto;
-  gap: 30px;
+  gap: 50px;
+}
+.sofa-title {
+  font-weight: 400;
+  font-size: 42px;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #000000;
+}
+.sofa-rate {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 100%;
+  letter-spacing: 0;
+  color: #9f9f9f;
+  margin-top: 5px;
+}
+.sofa-btn {
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 100%;
+  letter-spacing: 0;
+  border-bottom: none;
+  border-top: none;
+  border-right: none;
+  padding: 5px 5px 5px 20px;
+  background-color: #ffffff;
 }
 .flex-sofa {
   display: flex;
   gap: 20px;
+}
+.star-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+.star-flex img {
+  width: 18px;
+  height: 18px;
+  color: #ffc700;
+}
+.sofa-description {
+  width: 424px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  letter-spacing: 0;
+}
+.sofa-size {
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: #9f9f9f;
+  margin-bottom: 10px;
+}
+.sofa-btn2 {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #b88e2f;
+  color: #d9d9d9;
+}
+.sofa-btn3 {
+  padding: 5px 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f1efea;
+  color: #312b2b;
+  margin-left: 10px;
+  margin-bottom: 20px;
+}
+.img-sofa {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+  margin-bottom: 20px;
+}
+.add-btn {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 15px 30px;
+  margin-bottom: 20px;
+}
+.add-btn1 {
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid;
+  padding: 15px 50px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+}
+.cart-flex-add {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  margin-top: 30px;
 }
 .sofa-desc {
   display: flex;
@@ -788,6 +884,93 @@ i {
 #hr {
   width: 100%;
 }
+/*#Funiro Furniture section */
+.furniro {
+  text-align: center;
+  margin-top: 40px;
+}
+.furniro-share {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 150%;
+  letter-spacing: 0;
+  color: #616161;
+}
+.furniro-title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 120%;
+  letter-spacing: 0;
+  color: #3a3a3a;
+}
+
+.furniro-flex {
+  background-color: white;
+  width: 100%;
+  height: 780px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
+.image-flex-one {
+  width: 40%;
+  height: 780px;
+}
+.img-size {
+  margin-bottom: 80px;
+}
+.img-size-1 {
+  margin-top: 5px;
+}
+.img-size-2 {
+  margin-bottom: 45px;
+}
+.furniro-grid1 {
+  width: 100px;
+  height: 382px;
+}
+.furniro-grid4 {
+  width: 220px;
+  height: 323px;
+}
+.furniro-grid7 {
+  width: 267px;
+  height: 242px;
+  margin-left: 5px;
+}
+.furniro-grid2 img {
+  width: 351px;
+  height: 412px;
+}
+.furniro-grid3 {
+  width: 388px;
+  height: 312px;
+  margin-left: 5px;
+}
+
+.furniro-grid5 {
+  width: 280px;
+  height: 348px;
+  margin-left: 5px;
+}
+.furniro-grid6 {
+  width: 204px;
+  height: 433px;
+  margin-left: 5px;
+}
+
+.furniro-grid8 {
+  width: 178px;
+  height: 242px;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+.furniro-grid9 {
+  width: 258px;
+  height: 196px;
+  margin-left: 5px;
+}
 /* footer starts here  */
 .header-content h3 {
   font-weight: 700;
@@ -832,7 +1015,7 @@ i {
   padding-bottom: 10px;
 }
 
-.footer {
+/* .footer {
   width: 1100px;
   margin: 0 auto;
   padding: 1rem;
@@ -840,7 +1023,7 @@ i {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
+} */
 hr {
   width: 1100px;
   margin: 0 auto;
@@ -885,10 +1068,448 @@ hr {
 
 /* responsive start here */
 @media (max-width: 992px) {
+  header {
+    width: 90%;
+  }
+  #browse-width {
+    width: 100%;
+  }
+  .products {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rooms-flex {
+    width: 100%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-sec {
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  hr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #hr {
+    width: 100%;
+  }
+  .copyright-text {
+    font-size: 1.5rem;
+    color: #000000;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .service-container {
+    width: 100%;
+    height: 270px;
+    background-color: #faf3ea;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .filter {
+    width: 100%;
+    height: 100px;
+    background-color: #f9f1e7;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-cart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px auto;
+  }
+  .cart-container-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cart-container {
+    width: 100%;
+  }
+}
+@media (max-width: 700px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-bottom: 10px;
+  }
+  #browse-width {
+    width: 100%;
+  }
+  .products {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .banner {
+    width: 100%;
+    height: 850px;
+    background-image: url(./image/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .browse-width {
+    width: 95%;
+  }
+  .rooms-flex {
+    width: 100%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-sec {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  hr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #hr {
+    width: 100%;
+  }
+  .copyright-text {
+    font-size: 1.5rem;
+    color: #000000;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .service-container {
+    width: 100%;
+    height: 270px;
+    background-color: #faf3ea;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  .filter {
+    width: 100%;
+    height: 100px;
+    background-color: #f9f1e7;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-cart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px auto;
+  }
+  .cart-container-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cart-container {
+    width: 100%;
+  }
+  .furniro-flex {
+    width: 90%;
+    background-color: #ffc700;
+    display: flex;
+    flex-direction: column;
+  }
 }
 @media (max-width: 600px) {
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .browse-width {
+    width: 95%;
+  }
+  .products {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .banner {
+    width: 100%;
+    height: 850px;
+    background-image: url(./image/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  #browse-width {
+    width: 100%;
+  }
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .rooms-flex {
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-sec {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  hr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #hr {
+    width: 100%;
+  }
+  .copyright-text {
+    font-size: 1.5rem;
+    color: #000000;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .service-container {
+    width: 100%;
+    height: 270px;
+    background-color: #faf3ea;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .filter {
+    width: 100%;
+    height: 100px;
+    background-color: #f9f1e7;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-cart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px auto;
+  }
+  .cart-container-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cart-container {
+    width: 100%;
+  }
 }
 @media (max-width: 400px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .browse-width {
+    width: 95%;
+  }
+  .banner {
+    width: 100%;
+    height: 850px;
+    background-image: url(./image/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .products {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .rooms-flex {
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-sec {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  hr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #hr {
+    width: 100%;
+  }
+  .copyright-text {
+    font-size: 1.5rem;
+    color: #000000;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .service-container {
+    width: 100%;
+    height: 270px;
+    background-color: #faf3ea;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .filter {
+    width: 100%;
+    height: 100px;
+    background-color: #f9f1e7;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-cart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px auto;
+  }
+  .cart-container-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cart-container {
+    width: 100%;
+  }
+}
+@media (max-width: 300px) {
+  header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  .browse-width {
+    width: 95%;
+  }
+  .banner {
+    width: 100%;
+    height: 550px;
+    background-image: url(./image/banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+  }
+  .d-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .products {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .rooms-flex {
+    width: 90%;
+    margin: 5px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-sec {
+    width: 90%;
+    margin: 10px auto;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  hr {
+    width: 100%;
+    margin: 0 auto;
+  }
+  #hr {
+    width: 100%;
+  }
+  .copyright-text {
+    font-size: 1.5rem;
+    color: #000000;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+  }
+  .service-container {
+    width: 100%;
+    height: 270px;
+    background-color: #faf3ea;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .filter {
+    width: 100%;
+    height: 100px;
+    background-color: #f9f1e7;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .container-cart {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 50px auto;
+  }
+  .cart-container-flex {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .cart-container {
+    width: 100%;
+  }
 }
 
 /* responsive end here */
