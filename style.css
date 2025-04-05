@@ -1079,6 +1079,7 @@ hr {
   .card {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    margin: 0 5px 0 20px;
   }
   .d-flex {
     display: flex;
@@ -1176,6 +1177,7 @@ hr {
   .card {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 30px;
   }
   .d-flex {
     display: flex;
@@ -1305,7 +1307,8 @@ hr {
   }
   .card {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
+    margin-left: 70px;
   }
   .rooms-flex {
     width: 90%;
@@ -1400,8 +1403,7 @@ hr {
     margin: 0 auto;
   }
   .card {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    margin-left: 50px;
   }
   .rooms-flex {
     width: 90%;
@@ -1499,8 +1501,7 @@ hr {
     margin: 0 auto;
   }
   .card {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
+    margin-left: 30px;
   }
   .rooms-flex {
     width: 90%;
