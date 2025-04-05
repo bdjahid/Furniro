@@ -13,7 +13,6 @@
 }
 
 html {
-  /* background-color: #ffffff; */
   font-size: 62.5%;
   scroll-behavior: smooth;
   font-family: "Roboto", sans-serif;
@@ -1060,8 +1059,16 @@ hr {
 /* responsive start here */
 @media (max-width: 992px) {
   header {
-    width: 90%;
+    width: 100%;
   }
+  nav > ul > li {
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+  header > div > p {
+    margin-top: 10px;
+  }
+
   #browse-width {
     width: 100%;
   }
@@ -1143,12 +1150,21 @@ hr {
     height: 100%;
   }
 }
+
 @media (max-width: 700px) {
   header {
+    width: 100%;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
-    width: 95%;
     margin-bottom: 10px;
+  }
+  nav > ul > li {
+    margin-top: 5px;
+    margin-right: 20px;
+  }
+  header > div > p {
+    margin-top: 10px;
   }
   #browse-width {
     width: 100%;
@@ -1174,6 +1190,9 @@ hr {
     display: flex;
     align-items: center;
     justify-content: right;
+  }
+  .banner-heading {
+    margin-left: 100px;
   }
   .d-flex {
     display: flex;
@@ -1249,11 +1268,6 @@ hr {
   }
 }
 @media (max-width: 600px) {
-  header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
   .browse-width {
     width: 95%;
   }
@@ -1275,7 +1289,9 @@ hr {
     align-items: center;
     justify-content: right;
   }
-
+  .banner-heading {
+    margin-left: 100px;
+  }
   .d-flex {
     display: flex;
     flex-wrap: wrap;
@@ -1358,11 +1374,6 @@ hr {
   }
 }
 @media (max-width: 400px) {
-  header {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-  }
   .browse-width {
     width: 95%;
   }
@@ -1375,6 +1386,10 @@ hr {
     display: flex;
     align-items: center;
     justify-content: right;
+  }
+  .banner-heading {
+    margin: 0;
+    text-align: center;
   }
   .d-flex {
     display: flex;
@@ -1455,11 +1470,6 @@ hr {
   }
 }
 @media (max-width: 300px) {
-  header {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-  }
   .browse-width {
     width: 95%;
   }
@@ -1472,6 +1482,13 @@ hr {
     display: flex;
     align-items: center;
     justify-content: right;
+  }
+  .banner-heading {
+    margin: 0;
+    text-align: center;
+  }
+  .banner-heading > h1 {
+    font-size: 20px;
   }
   .d-flex {
     display: flex;
